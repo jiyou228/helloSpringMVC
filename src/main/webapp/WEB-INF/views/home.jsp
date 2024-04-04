@@ -12,5 +12,6 @@
   </head>
   <body>
     <p> <a href="${pageContext.request.contextPath}/offers"> show current offers</a></p>
+    <p> <a href="${pageContext.request.contextPath}/createoffer"> Add new offer</a></p>
   </body>
 </html>
