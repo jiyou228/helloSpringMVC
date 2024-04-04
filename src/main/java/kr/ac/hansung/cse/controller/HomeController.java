@@ -1,4 +1,4 @@
-package kr.ac.hansung.controller;
+package kr.ac.hansung.cse.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 
-@Controller
+@Controller //annotation
 public class HomeController {
 
     //private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-    private static final Logger logger = LoggerFactory.getLogger("kr.ac.hansung.controller.HomeController");
+    private static final Logger logger = LoggerFactory.getLogger("kr.ac.hansung.cse.controller.HomeController");
 
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
